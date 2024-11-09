@@ -15,7 +15,6 @@ class QuizRounds extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              // Timer Display
               Center(
                 child: Container(
                   padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
@@ -52,7 +51,6 @@ class QuizRounds extends StatelessWidget {
         
               const SizedBox(height: 24),
         
-              // Rounds Title
               const Text(
                 'Rounds',
                 style: TextStyle(
@@ -63,7 +61,6 @@ class QuizRounds extends StatelessWidget {
         
               const SizedBox(height: 16),
         
-              // Rounds List
               ListView.builder(
                 shrinkWrap: true,
                 physics: const NeverScrollableScrollPhysics(),
